@@ -1,3 +1,29 @@
+body{
+    background-color: bisque;
+}
+
+a{
+    border: 0.1rem solid black;
+    text-decoration: none;
+    padding: 0rem 1rem;
+    background-color: bisque;
+}
+
+a:hover{
+    background-image: url("img/download.jpeg");
+}
+
 table tr th, table tr td{
     border: 0.1rem solid black;
+    padding: 2rem;
+    background-color: rgb(17, 0, 255);
+}
+
+table{
+    border-collapse: collapse;
+    box-shadow: 0.5rem 0.5rem 0rem black;
+}
+
+table tr th, table tr td:hover{
+    background-image: url("img/download.jpeg");
 }
